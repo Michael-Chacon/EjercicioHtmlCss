@@ -4,9 +4,87 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
     <title>Ejercicio HTML y CSS</title>
   </head>
   <body>
+    <header>
+      <i class="bx bx-stats"></i>
+      <nav>icono menu</nav>
+      <i class="bx bx-cart"></i>
+    </header>
+
+    <!-- <aside>Menu latera</aside> -->
+
+    <main>
+      <section class="titulos">
+        <h1>Dashboard</h1>
+        <p><span>Home</span> / Dashboard</p>
+      </section>
+
+      <section class="cards">
+        <article class="card">
+          <i class="bx bx-trending-up arrow"></i>
+          <div class="indicador">
+            <h2>1500</h2>
+            <p>Traffic</p>
+          </div>
+          <div class="barra">
+            <progress id="file" max="100" value="40">40%</progress>
+            <br />
+            <strong for="file">40%</strong>
+          </div>
+        </article>
+
+        <article class="card">
+          <i class="bx bx-trending-down arrow"></i>
+          <div class="indicador">
+            <h2>234</h2>
+            <p>Sales</p>
+          </div>
+          <div class="barra">
+            <progress id="file" max="100" value="60">60%</progress>
+            <br />
+            <strong for="file">60%</strong>
+          </div>
+        </article>
+
+        <article class="card">
+          <i class="bx bx-trending-up arrow"></i>
+          <div class="indicador">
+            <h2>465</h2>
+            <p>Pageviews</p>
+          </div>
+          <div class="barra">
+            <progress id="file" max="100" value="30">30%</progress>
+            <br />
+            <strong for="file">30%</strong>
+          </div>
+        </article>
+
+        <article class="card">
+          <i class="bx bx-trending-up arrow"></i>
+          <div class="indicador">
+            <h2>253</h2>
+            <p>Visitors</p>
+          </div>
+          <div class="barra">
+            <progress id="file" max="100" value="80">80%</progress>
+            <br />
+            <strong for="file">80%</strong>
+          </div>
+        </article>
+        
+      </section>
+
+      <section class="salesReport">
+        <h3>Sales Report</h3>
+        <h2>Hola Mundo</h2>
+      </section>
+    </main>
     <script src="js/main.js"></script>
   </body>
 </html>
