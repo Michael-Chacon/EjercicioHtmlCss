@@ -11,6 +11,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 header{
@@ -151,12 +152,14 @@ h1{
     /* border: 1px solid black; */
 }
 
-.cards .card .detalles .info button{
+.cards .card .detalles .info a{
     /* font-family: 'Poppins', sans-serif; */
     border: none;
     padding: 5px 10px;
     background-color: rgb(47, 226, 47);
     border-radius: 5px;
+    text-decoration: none;
+    color: black;
 }
 
 
