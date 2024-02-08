@@ -1,1 +1,150 @@
-<h1>Carrito</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <title>Ejercicio HTML y CSS</title>
+  </head>
+  <body>
+
+    <aside>
+      <h1 class="title">CampusShop</h1>
+
+      <ul class="menu">
+        <li>
+          <a href="index.html">
+            <i class='bx bxs-grid'></i>
+            <span>Todos los productos</span>
+          </a>
+        </li>
+        <li>
+          <a href="celulares.html">
+            <i class='bx bx-mobile-alt' ></i>
+            <span>Celulares</span>
+          </a>
+        </li>
+        <li>
+          <a href="pc.html">
+            <i class='bx bx-laptop'></i>
+            <span>PCs</span>
+          </a>
+        </li>
+        <li>
+          <a href="audifonos.html">
+            <i class='bx bx-headphone'></i>
+            <span>Audifonos</span>
+          </a>
+        </li>
+      </ul>
+
+
+      <a href="carrito.html">
+        <i class='bx bx-cart'></i>
+          <span>Carritos</span>
+      </a>
+
+      <footer>
+        <small>&COPY 2024 Camper</small>
+      </footer>
+    </aside>
+    
+    <main>
+      <section class="titulos">
+        <h1>Carrito</h1>
+      </section>
+
+      <section class="carrito">
+
+        <article class="producto">
+           <img src="storage/celulares/a1.jpeg" alt="imgproducto">
+           <div class="elements">
+               <p>Nombre</p>
+               <p>Samsumg Galaxy S24</p>
+           </div>
+           <div class="elements">
+                <p>Cantidad</p>
+                <form action="#">
+                    <input type="number" value="2">
+                </form>
+            </div>
+            <div class="elements">
+                <p>Precio</p>
+                <p>$100.00</p>
+            </div>
+            <div class="elements">
+                <p>Subtotal</p>
+                <p>$897.00</p>
+            </div>
+
+            <i class='bx bx-trash'></i>
+        </article>
+
+        <article class="producto">
+            <img src="storage/audifonos/bmain.jpeg" alt="imgproducto">
+            <div class="elements">
+                <p>Nombre</p>
+                <p>Campumax ADF66</p>
+            </div>
+            <div class="elements">
+                 <p>Cantidad</p>
+                 <form action="#">
+                     <input type="number" value="1">
+                 </form>
+             </div>
+             <div class="elements">
+                 <p>Precio</p>
+                 <p>$173.00</p>
+             </div>
+             <div class="elements">
+                 <p>Subtotal</p>
+                 <p>$173.00</p>
+             </div>
+ 
+             <i class='bx bx-trash'></i>
+         </article>
+
+         <article class="producto">
+            <img src="storage/pc/bMain.jpeg" alt="imgproducto">
+            <div class="elements">
+                <p>Nombre</p>
+                <p>ALIENWARE R12</p>
+            </div>
+            <div class="elements">
+                 <p>Cantidad</p>
+                 <form action="#">
+                     <input type="number" value="1">
+                 </form>
+             </div>
+             <div class="elements">
+                 <p>Precio</p>
+                 <p>$758.00</p>
+             </div>
+             <div class="elements">
+                 <p>Subtotal</p>
+                 <p>$758.00</p>
+             </div>
+ 
+             <i class='bx bx-trash'></i>
+         </article>
+
+         <section class="opciones-carrito">
+            <button>Vaciar carrito</button>
+            <div>
+                <div class="total">
+                    <p>Total</p>
+                    <p>$999.00</p>
+                </div>
+                <button>Comprar Ahora</button>
+            </div>
+         </section>
+
+      </section>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
