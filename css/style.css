@@ -94,6 +94,15 @@ h1{
     color: blue;
 }
 
+.botonGeneral{
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
 /* Cards */
 
 .cards{
@@ -169,13 +178,12 @@ h1{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border: 1px solid red;
     height: 100%;
     padding: 30px;
 }
 
 .carrito .producto{
-    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
     width: 90%;
     border-radius: 20px;
     display: flex;
@@ -196,7 +204,6 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    /* border: 1px solid blue; */
     height: 100%;
     width: 100%;
 }
@@ -209,5 +216,38 @@ h1{
     margin-right: 25px;
     font-size: 30px;
     color: red;
+ }
+
+ .items-carrito{
+    color: rgb(94, 92, 92);
+ }
+
+ .opciones-carrito{
+    /* box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3); */
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+ }
+
+ .opciones-carrito .comprar{
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 8px;
+    border-radius: 10px;
+ }
+
+ .opciones-carrito .total{
+    /* border: 1px solid teal; */
+ }
+
+ .opciones-carrito .valor-total{
+    font-size: 1.4rem;
  }
 
